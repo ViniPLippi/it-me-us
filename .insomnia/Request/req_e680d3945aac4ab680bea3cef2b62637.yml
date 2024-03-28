@@ -1,0 +1,21 @@
+_id: req_e680d3945aac4ab680bea3cef2b62637
+type: Request
+parentId: wrk_09cd451c9f294597a13ac6acf9bea638
+modified: 1665502214610
+created: 1665502199909
+url: https://dev.labqs.ita.br/flualfa
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1665502199909
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
