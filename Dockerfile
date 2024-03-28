@@ -2,13 +2,10 @@ FROM node:16.17.0 as nodebase
 
 FROM php:7.4-cli as phpbase
 
-ARG VERSION=00000
-ARG token
-ENV CONSUL_TOKEN $token
 
 EXPOSE 8080
 
-CMD [ "/build/flualfa/start.sh", "$CONSUL_TOKEN" ]
+CMD [ "/build/flualfa/start.sh"]
 
 COPY --from=nodebase /usr/local/lib/node_modules /usr/local/lib/node_modules
 COPY --from=nodebase /usr/local/bin/node /usr/local/bin/node
