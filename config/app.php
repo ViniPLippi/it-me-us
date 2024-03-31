@@ -66,7 +66,7 @@ return [
 
     'url' => env('APP_URL', 'http://localhost'),
 
-    'asset_url' => env('ASSET_URL', null),
+    'asset_url' => env('ASSET_URL', 'https://mec-ita-2021-935f14f45f92.herokuapp.com/'),
 
     /*
     |--------------------------------------------------------------------------
